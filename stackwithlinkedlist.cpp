@@ -24,6 +24,9 @@ void peek(){
     if(top!=NULL)
     cout<<"Top:"<<top->data<<endl;
 }
+bool isEmpty(){
+    return top==NULL;
+}
 void print(){
     Node *temp=top;
     cout<<"Data element in stack:";
