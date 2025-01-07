@@ -1,3 +1,12 @@
+/*Problem: Given a positive number 𝑥, use binary search to compute its
+square root up to a certain precision.
+
+Example:
+
+Input: 𝑥=25
+
+Output: Square Root=5*/
+
 #include <iostream>
 #include <iomanip>
 using namespace std;
