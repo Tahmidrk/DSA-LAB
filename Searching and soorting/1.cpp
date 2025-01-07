@@ -1,9 +1,9 @@
-/*Problem: Given an array of integers and a target value, determine if the target
-exists in the array. If it does, return its position; otherwise, return -1.
+/*Problem: Use linear search to find the maximum or minimum element in an
+array.
 
 Example:
-Input: Array = [10, 20, 30, 40, 50], Target = 30
-Output: Position = 2*/
+Input: Array = [12, 45, 2, 67, 34]
+Output: Maximum = 67, Minimum = 2*/
 #include<iostream>
 using namespace std;
 
