@@ -41,9 +41,10 @@ void print()
 
 int binarysearch(int low,int high)
 {
+    int mid;
     while(low<=high)
     {
-        int mid=(low+high)/2;
+         mid=(low+high)/2;
         if(a[mid]==x)
         {
             return mid;
