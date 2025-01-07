@@ -1,3 +1,10 @@
+/*Problem: Given a sorted array, find the smallest element that is greater than
+or equal to the target value.
+
+Example:
+Input: Array = [2, 4, 6, 8, 10], Target = 5
+Output: Result = 6*/
+
 #include <iostream>
 using namespace std;
 
