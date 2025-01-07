@@ -1,3 +1,10 @@
+/*Problem: Given an array of integers, count how many times a specified
+element appears.
+
+Example:
+Input: Array = [1, 2, 3, 4, 2, 2, 5], Target = 2
+Output: Count = 3*/
+
 #include<iostream>
 
 using namespace std;
@@ -20,3 +27,4 @@ int main(){
     return 0;
     
 }
+//output:Count:3
