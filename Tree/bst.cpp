@@ -75,6 +75,13 @@ void postorder(Node* root){
     }
     
 }
+void display(Node *root){
+    if(root!=NULL){
+        cout<<root->data<<" ";
+        display(root->left);
+        display(root->right);
+    }
+}
 int main(){
     Node* root=NULL;
 
@@ -85,6 +92,10 @@ int main(){
     root=insert(root,40);   
     root=insert(root,60);
     root=insert(root,80);
+
+      cout<<"Display all nodes:";
+    display(root);
+    cout<<endl;
 
     cout<<"Inorder Traversal: ";
     inorder(root);
